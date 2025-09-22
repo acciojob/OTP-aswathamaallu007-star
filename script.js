@@ -4,6 +4,7 @@ const inputlengthbox = 6
 for(let i = 0;i<inputlengthbox;i++){
 	const input = document.createElement('input')
 	input.classList.add('code')
+	input.id = `code-${i+1}`;
 	input.maxLength = '1';
 	
 	form.appendChild(input)
