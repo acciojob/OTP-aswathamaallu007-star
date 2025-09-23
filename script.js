@@ -10,6 +10,7 @@ for(let i = 0;i<inputlengthbox;i++){
 	form.appendChild(input)
 }
 const allinputs = document.querySelectorAll('.code')
+document.querySelector(".code").focus()
 for(let i = 0;i<allinputs.length;i++){
 	// input written in the box 
 	allinputs[i].addEventListener('input',e=>{
